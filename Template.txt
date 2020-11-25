@@ -1,0 +1,9 @@
+Caro cliente,
+
+Com vista a melhorar o nosso processo de comunicação e, consequentemente, prover o melhor serviço para a sua empresa, a equipa emprego.co.mz solicita a actualização dos dados de contacto.
+
+Para tal, clique no link a seguir para adicionar as informações solicitadas: <?= data ?>
+
+Sem mais de momento, agradecemos pela atenção dispensada na expectativa de ter o vosso retorno.
+
+Para mais detalhes, contacte-nos através do email comercial@emprego.co.mz, ou pelos telefones +258 84 5823505 | +258 84 864 1593
