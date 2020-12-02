@@ -27,7 +27,7 @@ function sendEmails(){
     let htmlMessage = getEmailHtml(link);
     let txtMessage = getEmailText(link);
     let emailSent = row[4]; // 4th column
-    let subject = 'Actualização dos contactos dos clientes';
+    let subject = 'Actualização de contactos dos clientes';
     if(emailAddress && (emailSent !== EMAIL_SENT)){ // Prevents sending duplicates
       MailApp.sendEmail({
         to: emailAddress,
