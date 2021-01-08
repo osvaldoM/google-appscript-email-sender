@@ -1,8 +1,8 @@
 //ideas from: https://spreadsheet.dev/send-html-email-from-google-sheets
 
 
-// This constant is written in column C for rows for which an email
-// has been sent successfully.
+// This constant value is written to column C in rows for which an email
+// has been successfully sent.
 const EMAIL_SENT = 'EMAIL_SENT';
 
 /**
@@ -27,7 +27,7 @@ function sendEmails(){
     let htmlMessage = getEmailHtml(link);
     let txtMessage = getEmailText(link);
     let emailSent = row[4]; // 4th column
-    let subject = 'Actualização de contactos dos clientes';
+    let subject = 'My dummy subject';
     if(emailAddress && (emailSent !== EMAIL_SENT)){ // Prevents sending duplicates
       MailApp.sendEmail({
         to: emailAddress,
